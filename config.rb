@@ -59,7 +59,7 @@ set :base_url, "http://localhost:4567"
 
 activate :deploy do |deploy|
   deploy.method = :git
-  deploy.branch   = "master" # default: gh-pages
+  deploy.branch   = "gh-pages" # default: gh-pages
 end
 
 configure :build do

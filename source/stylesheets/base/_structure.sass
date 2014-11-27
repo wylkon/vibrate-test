@@ -1,0 +1,41 @@
+body
+  text-align: center
+  padding: 20px
+  background: #22313F
+  color: #fff
+
+  &.pinkTheme
+    background: #F62459
+
+    button
+      background: #913D88
+
+  h1
+    font-size: 40px
+    margin-bottom: 10px
+
+  h2
+    font-size: 20px
+    margin-bottom: 5px
+
+  button
+    background: #446CB3
+    color: #fff
+    padding: 15px 20px
+    font-size: 18px
+    border: none
+    border-radius: 5px
+    margin-top: 20px
+    cursor: pointer
+
+  .message
+    padding: 10px
+    color: #22313F
+    background: #E4F1FE
+    border-radius: 10px
+    margin-top: 20px
+    opacity: 1
+    +transition(opacity, .2s ease-in-out)
+
+    &:empty
+      opacity: 0
